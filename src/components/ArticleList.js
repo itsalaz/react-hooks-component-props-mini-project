@@ -1,6 +1,5 @@
 import React from "react"
 import Article from "./Article"
-import { title } from "process"
 
 export default function ArticleList({posts}) {
   return (
