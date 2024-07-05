@@ -1,7 +1,8 @@
 import React from "react"
 import Article from "./Article"
 
-export default function ArticleList({posts}) {
+  const ArticleList = ({posts}) => {
+
   return (
     <main>
       {posts.map((post) => (
@@ -10,9 +11,12 @@ export default function ArticleList({posts}) {
           title= {post.title}
           date= {post.date}
           preview= {post.preview}
-        />
+          />
       ))}
       
     </main>
   )
 }
+
+
+export default ArticleList
